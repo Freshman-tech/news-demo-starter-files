@@ -15,6 +15,7 @@ import (
 
 var tpl = template.Must(template.ParseFiles("index.html"))
 
+// test update in my new dev branch
 func indexHandler(w http.ResponseWriter, r *http.Request) {
 	tpl.Execute(w, nil)
 }
