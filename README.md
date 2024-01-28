@@ -1,15 +1,7 @@
-# News Demo starter files
+# News demo web app
 
-Starter files for the News application built with Go. Tutorial:
-https://freshman.tech/web-development-with-go/
-
-Here's what the [completed application](https://freshman-news.herokuapp.com/)
-looks like:
-
-![demo](https://ik.imagekit.io/freshman/news-demo_MrYio9GKlzSi.png)
-
-The code in this repo is meant to be a starting point for anyone following
-along with the tutorial.
+News application built with Go. It was created following the tutorial created by
+[ayoisiah](https://github.com/ayoisaiah) at: https://freshman.tech/web-development-with-go/
 
 ## Prerequisites
 
@@ -21,7 +13,14 @@ version used to test the code in the tutorial is **1.15.3**.
 - Clone or download this repository to your filesystem.
 
 ```bash
-$ git clone https://github.com/Freshman-tech/news-demo-starter-files
+$ git clone https://github.com/drmattheath/news-demo-web-app
 ```
 
-- `cd` into the project directory and follow along with the [tutorial](https://freshman.tech/web-development-with-go/).
+- Compile the code.
+
+```bash
+$ go build
+```
+
+- Execute the binary to start the application.
+
